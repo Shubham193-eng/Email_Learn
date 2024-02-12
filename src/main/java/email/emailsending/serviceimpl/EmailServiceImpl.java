@@ -1,6 +1,5 @@
 package email.emailsending.serviceimpl;
 
-import javax.jws.soap.SOAPBinding;
 import javax.mail.MessagingException;
 import javax.mail.internet.MimeMessage;
 

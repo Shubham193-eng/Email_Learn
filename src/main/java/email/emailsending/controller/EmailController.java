@@ -25,8 +25,7 @@ import email.emilsending.request.EmailRequest;
 public class EmailController {
 	@Autowired
 	private EmailService emailService;
-	@Autowired
-	private Email email;
+
 	@PostMapping("/send")
 	public ResponseEntity<String> sendTextEmail(@RequestBody EmailRequest emailRequest) throws MessagingException {
 		emailService.sendTextEmail(emailRequest);
